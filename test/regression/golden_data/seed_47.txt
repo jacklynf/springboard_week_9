@@ -49,6 +49,7 @@ Answer was corrent!!!!
 Sue now has 2 Gold Coins.
 Chet is the current player
 They have rolled a 2
+Chet is not getting out of the penalty box
 Pat is the current player
 They have rolled a 2
 Pat's new location is 7
@@ -65,6 +66,7 @@ Answer was corrent!!!!
 Sue now has 3 Gold Coins.
 Chet is the current player
 They have rolled a 4
+Chet is not getting out of the penalty box
 Pat is the current player
 They have rolled a 4
 Pat's new location is 11

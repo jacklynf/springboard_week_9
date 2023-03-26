@@ -214,6 +214,7 @@ void Game::_handle_player_turn (
       ostr << cur_player.get_name()
            << " is not getting out of the penalty box"
            << endl;
+      _broadcast(ostr.str());
       // preserve existing bug behavior
       return;
     }
