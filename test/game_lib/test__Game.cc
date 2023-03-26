@@ -63,15 +63,15 @@ SCENARIO ("player actions are handled correctly")
     Game game(board, players);
     game._add_players();
 
-    AND_GIVEN ("player 1 does not start in the penalty box")
+    THEN ("player 1 does not start in the penalty box")
     {
       REQUIRE(player_1.get_is_in_penalty_box() == false);
 
-      AND_GIVEN ("player 2 does not start in the penalty box")
+      THEN ("player 2 does not start in the penalty box")
       {
         REQUIRE(player_2.get_is_in_penalty_box() == false);
 
-        AND_GIVEN ("player 3 does not start in the penalty box")
+        THEN ("player 3 does not start in the penalty box")
         {
           REQUIRE(player_3.get_is_in_penalty_box() == false);
         }
